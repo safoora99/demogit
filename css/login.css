@@ -1,0 +1,94 @@
+
+.login-image{
+    width:900px;
+    object-fit: centre;
+    text-align: center;
+}
+.login{
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    padding-top:300px;
+    text-align: center;
+}
+.vl{
+    border-left: 1px solid #09bbcb;
+    height: 500px;
+  }
+@media screen and (max-width:992px) and (min-width:777px){
+    .vl{
+        height:300px;
+    }
+}
+@media screen and (max-width:778px) and (min-width:591px){
+    .vl{
+        height:300px;
+    }
+}
+@media screen and (max-width:592px) and (min-width:421px){
+    .vl{
+        height:300px;
+    }
+}
+
+@media screen and (max-width:423px){
+    .vl{
+        height:300px;
+    }
+}
+.login-form{
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+.login-button{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    color:#0ca4c2;
+    border-radius: 4px;
+    background:#ffffff64;
+    border:none;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+.login-button:hover{
+    background-color:#eae7dc8e;
+    
+    
+}
+.back-button{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    color:#5d5c61;
+    background:none;
+    border:none;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.back-button:hover{
+    color:#414044;
+}
+
+hr{
+    border: 1px solid #41ca29;
+    max-width:90px;
+    margin:auto;
+    
+}
+h4.other-login-op{
+    text-align:center;
+    font-size: 18px;
+    font-weight: 900;
+    color:#5d5c61;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+    
+}

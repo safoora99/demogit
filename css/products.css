@@ -1,0 +1,105 @@
+.bg-images{
+  text-align: center;
+}
+.bg-images img{
+  width:600px;
+  object-fit: cover;
+}
+.bg-images{
+  background-color: #f3f3f39d;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-head-of-products{
+  color:rgba(0, 0, 0, 0.719);
+  padding-top:70px;
+  text-align: center;
+}
+.colored-word{
+  color:#14bcc8;
+}
+.colored-word-bigger-size{
+  color:#08a8e2;
+  font-size:35px;
+}
+.bigletter{ 
+  font-size: 90px;
+}
+.header-categories{
+  text-align: center;
+  padding: top 150px;
+  font-size:23px;
+  color:rgba(0, 0, 0, 0.433);  
+}
+.info-of-head{
+  text-align: center;  
+}
+.products-hr{
+  border: 1px solid rgba(0, 0, 0, 0.466);
+  width:100%;
+}
+.kurti, .western, .heels, .g-shoes, .shirts, .shoes, .joggers, .jeans{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding-left:50px;
+  
+}
+@media screen and (max-width:800px){
+  .kurti, .western, .heels, .g-shoes, .shirts, .shoes, .joggers, .jeans{
+    padding-left:30px;
+    padding-right:30px;
+  }
+}
+.btn-of-img{
+  border:none;
+  position: absolute;
+}
+.sry-msg{
+  color:rgba(0, 0, 0, 0.641);
+  text-align:center;
+  padding-bottom:20px;
+} 
+
+.cart-details{
+  padding-left:50px;
+}
+.cart-details li{
+  list-style-type:decimal;
+}
+.head-of-cart{
+  color:#0e9dd6;
+
+}
+.hr-of-cart-head{
+  border: 1px solid rgba(0, 0, 0, 0.642);
+  width:100px;
+}
+.msg-ps{
+  color:rgba(0, 0, 0, 0.725);
+}
+.last-hr-of-product{
+  border: 1px solid rgba(0, 0, 0, 0.656);
+  width:70%;
+}
+.btn-clear-list{
+  width: 80px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: none;
+  border:none;
+}
+.btn-clear-list:hover{
+  background-color: #ece3e359;
+}
+.ul_pr li{
+  font-size:18px;
+}
+img{
+  cursor: pointer;
+}
